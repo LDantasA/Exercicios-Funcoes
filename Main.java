@@ -4,23 +4,6 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         int num1;
-        int num2;
-
-        mensagem();
-        mensagem();
-        mensagem();
-
-        imprimeNovaMensagem("show");
-        imprimeNovaMensagem("de");
-        imprimeNovaMensagem("bola");
-
-        int max;
-        System.out.println("Digite um número inteiro:");
-        num1 = sc.nextInt();
-        System.out.println("Digite outro número inteiro:");
-        num2 = sc.nextInt();
-        max = encontrarMax(num1, num2);
-        System.out.println("O maior valor é: " + max);
 
         while (true) {
             System.out.println("Digite um número inteiro:");
